@@ -1,4 +1,4 @@
 FROM alpine:3.1
-MAINTAINER Kelsey Hightower <kelsey.hightower@gmail.com>
+MAINTAINER Carter Morgan <askcarter@google.com>
 ADD monolith /usr/bin/monolith
 ENTRYPOINT ["monolith"]
