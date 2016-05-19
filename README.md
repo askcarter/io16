@@ -1,6 +1,6 @@
 # Scalable Microservices with Kubernetes
 
-The code is from [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).  In this talk you will learn how to:
+The code for this talk is from [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).  In this talk you will learn how to:
 
 * Provision a complete Kubernetes using [Google Container Engine](https://cloud.google.com/container-engine)
 * Deploy and manage Docker containers using kubectl
@@ -9,11 +9,11 @@ All of the code for this course was written by Kelsey Hightower.
 Kubernetes Version: 1.2.2
 Go Version: 1.6+
 
-## Course Description
+## Description
 
-Kubernetes is all about applications and in this course you will utilize the Kubernetes API to deploy, manage, and upgrade applications. In this part of the workshop you will use an example application called "app" to complete the labs.
+In the last decade, user demand for always on applications have grown, exponentially.  Many developers choose application patterns (like microservices) to meet this need -- but what about the infrastructure needed to support these ever growing demands?  In this talk, you will be introduced to the next level of automation using hands on examples of industry standard tooling like Docker, a container format, and Kubernetes, a distributed automation platform.  We'll cover the basics of modern day applications and how design patterns like microservices drive the need for more robust infrastructure.  Then we’ll cover packaging and distributing apps using Docker.  Finally, we’ll up our game to running applications on Kubernetes.  By the end of this talk you'll have the knowledge to clearn the three major hurdles to writing scalable applications in this always on digital age.
 
-App is an example 12-Factor application that we'll be using throughout the course. During this course you will be working with the following Docker images:
+In this talk you will utilize the Kubernetes API to deploy, manage, and upgrade applications using an example application called "app":  an example 12-Factor application that I'll be using throughout the talk.  During this talk you will see live demos of working with the following Docker images:
 
 * [askcarter/monolith](https://hub.docker.com/r/askcarter/monolith) - Monolith includes auth and hello services.
 * [askcarter/auth](https://hub.docker.com/r/askcarter/auth) - Auth microservice. Generates JWT tokens for authenticated users.
