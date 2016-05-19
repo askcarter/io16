@@ -1,6 +1,6 @@
 # Scalable Microservices with Kubernetes
 
-The code for this talk is from [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).  In this talk you will learn how to:
+The code for this talk is from Udacity's [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).  In this talk you will learn how to:
 
 * Provision a complete Kubernetes using [Google Container Engine](https://cloud.google.com/container-engine)
 * Deploy and manage Docker containers using kubectl
