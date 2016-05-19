@@ -1,6 +1,6 @@
-# UD615: Scalable Microservices with Kubernetes
+# Scalable Microservices with Kubernetes
 
-This is the code for [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).  In this course you will learn how to:
+The code is from [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615).  In this talk you will learn how to:
 
 * Provision a complete Kubernetes using [Google Container Engine](https://cloud.google.com/container-engine)
 * Deploy and manage Docker containers using kubectl
@@ -25,7 +25,6 @@ App is an example 12-Factor application that we'll be using throughout the cours
   * [Kubernetes](http://googlecloudplatform.github.io/kubernetes)
   * [gcloud Tool Guide](https://cloud.google.com/sdk/gcloud)
   * [Docker](https://docs.docker.com)
-  * [etcd](https://coreos.com/docs/distributed-configuration/getting-started-with-etcd)
   * [nginx](http://nginx.org)
 
 ## Demos
