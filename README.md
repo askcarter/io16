@@ -97,6 +97,7 @@ $ curl -k https://<External-IP>
 ### The Third Hurdle:  The Wild
 The last hurdle is the The Wild.  How do we handle rolling out updates to our code?
 ```
+$ while true; do curl <IP>; sleep .3; done
 $ sed -i s/hello:1.0.0/hello:2.0.0/g deployments/hello.yaml
 $ kubectl apply -f deployments/hello.yaml
 $ kubectl describe deployments hello
