@@ -1,18 +1,22 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
 spec:
-  replicas: 7
+  replicas: 3
+  selector:
+    matchLabels: 
+      app: "hello"
   template:
     metadata:
       labels:
         app: hello
         track: stable
+        version: 1.0.0
     spec:
       containers:
         - name: hello
-          image: "askcarter/hello:1.0.0"
+          image: "askcarter/hello:2.0.0"
           ports:
             - name: http
               containerPort: 80
