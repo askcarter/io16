@@ -104,18 +104,6 @@ kubectl apply -f deployments/hello.yaml
 kubectl describe deployments hello
 ```
 
-```
-sed -i 's/orange/blue/g' cmd/gke-info/common-service.go
-
-git commit -a -m "Change color to blue"
-git tag v1.0.1
-git push --tags
-
-git revert v1.0.1
-git tag v1.0.2
-git push --tags
-```
-
 Cleanup
 ```
 $ gcloud container clusters delete io
